@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EmailWriterSbApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Listening on port: " + System.getenv("PORT"));
 		SpringApplication.run(EmailWriterSbApplication.class, args);
 	}
 
