@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "env": {
+                "GEMINI_URL": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=",
+                "GEMINI_API_KEY": "AIzaSyBLDBr4elk1wfBgwM4jOQ1oMRwWSz55sIA"
+            }
+        },
+        {
+            "type": "java",
+            "name": "EmailWriterSbApplication",
+            "request": "launch",
+            "mainClass": "com.email.writer.EmailWriterSbApplication",
+            "projectName": "email-writer-sb",
+            "env": {
+                "GEMINI_URL": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=",
+                "GEMINI_API_KEY": "AIzaSyBLDBr4elk1wfBgwM4jOQ1oMRwWSz55sIA"
+            }
+        }
+    ]
+}
